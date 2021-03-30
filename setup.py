@@ -6,7 +6,7 @@ import setuptools
 compat = dict(
     name='pytest-runner',
     py_modules=['ptr'],
-    setup_requires=['setuptools_scm >= 1.15.0'],
+    setup_requires=['setuptools_scm == 5.0.1'],
     entry_points={'distutils.commands': ['ptr = ptr:PyTest', 'pytest = ptr:PyTest']},
 )
 """
